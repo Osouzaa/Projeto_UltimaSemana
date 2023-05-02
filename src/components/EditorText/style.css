@@ -1,0 +1,58 @@
+
+.Container {
+    border: none;
+    width: 900px;
+}
+.Container * {
+    border: none;
+}
+.my-editor {
+    border: none ;
+    background-color: transparent;
+  }
+
+.Title {
+    padding: .2em;
+    width: 576px;
+    height: 240px;
+    resize: none;
+    margin-left: 1em;
+    background: #FFFFFF;
+
+    border: 1px solid rgba(66, 82, 110, 0.25);
+    box-shadow: inset 0px 1px 3px #DDDDDD;
+    border-radius: 10px;
+    overflow-y: scroll;
+    outline: none;
+
+    
+}
+
+.Title::placeholder {
+    color: #C2C2C2;
+}
+
+.Title::-webkit-scrollbar {
+    width: 11px;
+    height: 2px;
+}
+  
+.Title::-webkit-scrollbar-thumb {
+    background: #E0E0E0;
+    border-radius: 5px;
+  }
+
+  
+.Title::-webkit-scrollbar-track {
+    background-color: #dedede;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.Title::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 5px;
+    background-image: url('../../icons/Scrool.svg');
+    background-size: cover;
+  }
+
+

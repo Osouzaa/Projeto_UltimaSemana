@@ -1,0 +1,29 @@
+
+.Containeer {
+    border: none;
+    width: 900px;
+}
+.Containeer * {
+    border: none;
+}
+.my-editoor {
+    border: none ;
+    background-color: transparent;
+  }
+
+.Teste {
+    padding: .2em;
+    width: 576px;
+    height: 240px;
+    margin-left: 1em;
+    background: #FFFFFF;
+
+    border: 1px solid rgba(66, 82, 110, 0.25);
+    box-shadow: inset 0px 1px 3px #DDDDDD;
+    border-radius: 10px;
+    outline: none;
+    
+}
+
+
+
